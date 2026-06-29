@@ -1,0 +1,54 @@
+{
+  "created_at_utc": "2026-06-29T13:47:32.290020+00:00",
+  "device_paths_exported": false,
+  "entries": [
+    {
+      "encoded_name": "C10E_R2C_000000_6d046160ab993b58_3Dx9_assets_6d046160ab99.pqcasset",
+      "mode": "0644",
+      "relative_path": "3Dx9_assets_6d046160ab99.pqcasset",
+      "role": "assets",
+      "sha256": "6d046160ab993b5830266fc45233d6975e56265f5394c8ea3f6794f61834aa45",
+      "size_bytes": 865964,
+      "type": "file"
+    },
+    {
+      "encoded_name": "C10E_R2C_000001_4a7ef30be3499e38_3Dx9_core_4a7ef30be349.pqcasset",
+      "mode": "0644",
+      "relative_path": "3Dx9_core_4a7ef30be349.pqcasset",
+      "role": "core",
+      "sha256": "4a7ef30be3499e38fbec9f387cfba19356447ad1a76c2bde7ceb1c1fc06d90c3",
+      "size_bytes": 11181784,
+      "type": "file"
+    },
+    {
+      "encoded_name": "C10E_R2C_000002_1ffba09c20965646_3Dx9_readme_1ffba09c2096.pqcasset",
+      "mode": "0644",
+      "relative_path": "3Dx9_readme_1ffba09c2096.pqcasset",
+      "role": "readme",
+      "sha256": "1ffba09c20965646ff6484dfcedd793d92b5f866b36ef587c2932b4f7d5f5553",
+      "size_bytes": 383113,
+      "type": "file"
+    },
+    {
+      "encoded_name": "C10E_R2C_000003_bcf1c3b2b21d4c04_CryptoChessAssetManager.py",
+      "mode": "0644",
+      "relative_path": "CryptoChessAssetManager.py",
+      "role": "manager",
+      "sha256": "bcf1c3b2b21d4c04ab83a641109eee9839f421f942bbd69ba3f4d81b24f23c5f",
+      "size_bytes": 151514,
+      "type": "file"
+    },
+    {
+      "encoded_name": "C10E_R2C_000004_556262cbc1861d43_cryptochess.sh",
+      "mode": "0755",
+      "relative_path": "cryptochess.sh",
+      "role": "launcher",
+      "sha256": "556262cbc1861d43fcea3dd70695aca88ba2e254315f99f7b3f625d726064ef3",
+      "size_bytes": 968,
+      "type": "file"
+    }
+  ],
+  "entry_count": 5,
+  "profile": "CryptoChess-C10-Public-PQCZIP-PathMap-v1",
+  "stage": "PQC-C10E-R2C"
+}

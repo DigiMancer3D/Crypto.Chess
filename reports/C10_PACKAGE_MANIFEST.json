@@ -1,0 +1,59 @@
+{
+  "created_at_utc": "2026-06-29T13:47:32.290020+00:00",
+  "excluded_from_public_pqczip": [
+    "PQCZIP_CryptoChess_2.0.0-rc1_C9I_R2_FINAL_STANDALONE_975aba118b9c.pqcasset",
+    "CryptoChess_2.0.0-rc1_C9I_R2_FINAL_STANDALONE_PQCZIP_MANIFEST.json",
+    "CryptoChess_2.0.0-rc1_C9I_R2_FINAL_STANDALONE_PQCZIP_SEAL.json",
+    "CryptoChess_2.0.0-rc1_C9I_R2_FINAL_STANDALONE_PQCZIP_SHA256.txt",
+    "unwrap_pqczip_outer.py",
+    ".cryptochess_runtime/",
+    "c9_build/",
+    "c10_safety_backups/"
+  ],
+  "payloads": [
+    {
+      "name": "3Dx9_assets_6d046160ab99.pqcasset",
+      "role": "assets",
+      "sha256": "6d046160ab993b5830266fc45233d6975e56265f5394c8ea3f6794f61834aa45",
+      "size_bytes": 865964
+    },
+    {
+      "name": "3Dx9_core_4a7ef30be349.pqcasset",
+      "role": "core",
+      "sha256": "4a7ef30be3499e38fbec9f387cfba19356447ad1a76c2bde7ceb1c1fc06d90c3",
+      "size_bytes": 11181784
+    },
+    {
+      "name": "3Dx9_readme_1ffba09c2096.pqcasset",
+      "role": "readme",
+      "sha256": "1ffba09c20965646ff6484dfcedd793d92b5f866b36ef587c2932b4f7d5f5553",
+      "size_bytes": 383113
+    },
+    {
+      "name": "CryptoChessAssetManager.py",
+      "role": "manager",
+      "sha256": "bcf1c3b2b21d4c04ab83a641109eee9839f421f942bbd69ba3f4d81b24f23c5f",
+      "size_bytes": 151514
+    },
+    {
+      "name": "cryptochess.sh",
+      "role": "launcher",
+      "sha256": "556262cbc1861d43fcea3dd70695aca88ba2e254315f99f7b3f625d726064ef3",
+      "size_bytes": 968
+    }
+  ],
+  "privacy": {
+    "absolute_paths_in_manifest": false,
+    "device_paths_exported": false,
+    "install_key_shipped": false,
+    "private_state_shipped": false,
+    "public_state_placeholder": "data/README_PUBLIC_STATE.md"
+  },
+  "profile": "CryptoChess-C10-Public-PQCZIP-Manifest-v1",
+  "release": {
+    "app": "CryptoChess",
+    "label": "C10 public release candidate",
+    "version": "2.0.0-rc1"
+  },
+  "stage": "PQC-C10E-R2C"
+}
