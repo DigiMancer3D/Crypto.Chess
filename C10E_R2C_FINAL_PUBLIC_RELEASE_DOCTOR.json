@@ -1,0 +1,262 @@
+{
+  "checks": {
+    "active_public_surface_files": {
+      "3Dx9_assets_6d046160ab99.pqcasset": {
+        "role": "assets",
+        "sha256": "6d046160ab993b5830266fc45233d6975e56265f5394c8ea3f6794f61834aa45",
+        "size_bytes": 865964
+      },
+      "3Dx9_core_4a7ef30be349.pqcasset": {
+        "role": "core",
+        "sha256": "4a7ef30be3499e38fbec9f387cfba19356447ad1a76c2bde7ceb1c1fc06d90c3",
+        "size_bytes": 11181784
+      },
+      "3Dx9_readme_1ffba09c2096.pqcasset": {
+        "role": "readme",
+        "sha256": "1ffba09c20965646ff6484dfcedd793d92b5f866b36ef587c2932b4f7d5f5553",
+        "size_bytes": 383113
+      },
+      "CryptoChessAssetManager.py": {
+        "role": "manager",
+        "sha256": "bcf1c3b2b21d4c04ab83a641109eee9839f421f942bbd69ba3f4d81b24f23c5f",
+        "size_bytes": 151514
+      },
+      "cryptochess.sh": {
+        "role": "launcher",
+        "sha256": "556262cbc1861d43fcea3dd70695aca88ba2e254315f99f7b3f625d726064ef3",
+        "size_bytes": 968
+      }
+    },
+    "assets_privacy": {
+      "findings": [
+        {
+          "category": "container-warning",
+          "container": "3Dx9_assets_6d046160ab99.pqcasset",
+          "file_name": null,
+          "internal_path": null,
+          "public_release_blocker": false,
+          "reason": "private-looking entry name: C9R_assets_000002_7d41d5861091af2c_CryptoChess.assets.pah2",
+          "severity": "warning"
+        },
+        {
+          "category": "internal-path",
+          "container": "3Dx9_assets_6d046160ab99.pqcasset",
+          "file_name": null,
+          "internal_path": "_legacy_convert_from_pah2/CryptoChess.assets.pah2",
+          "public_release_blocker": false,
+          "reason": "PAH2 file requires review before public release",
+          "severity": "warning"
+        },
+        {
+          "category": "encoded-entry-name",
+          "container": "3Dx9_assets_6d046160ab99.pqcasset",
+          "file_name": null,
+          "internal_path": "_legacy_convert_from_pah2/CryptoChess.assets.pah2",
+          "public_release_blocker": false,
+          "reason": "PAH2 file requires review before public release; encoded payload name contains sensitive type marker",
+          "severity": "warning"
+        }
+      ],
+      "summary": {
+        "blocker_count": 0,
+        "container": "3Dx9_assets_6d046160ab99.pqcasset",
+        "entry_count": 361,
+        "finding_count": 3,
+        "passed": true,
+        "privacy": "device paths redacted; internal paths only",
+        "public_release_ready": true,
+        "warning_count": 3
+      }
+    },
+    "private_root_files_absent": {
+      "findings": [],
+      "passed": true
+    },
+    "release_sidecars_present": {
+      "files": {
+        "export/C10_public_release/C10_PACKAGE_MANIFEST.json": true,
+        "export/C10_public_release/C10_PACKAGE_PATH_MAP.json": true,
+        "export/C10_public_release/PQCZIP_CryptoChess_2.0.0-rc1_C10E_R2C_PUBLIC_c99cc9de85a2.pqcasset.sha256.txt": true
+      },
+      "passed": true
+    },
+    "release_surface": {
+      "findings": [],
+      "summary": {
+        "blocker_count": 0,
+        "finding_count": 0,
+        "public_release_ready": true,
+        "requires_new_pqczip_build": false,
+        "warning_count": 0
+      }
+    },
+    "required_roles": {
+      "missing": [],
+      "passed": true,
+      "present": [
+        "assets",
+        "core",
+        "launcher",
+        "manager",
+        "readme"
+      ],
+      "required": [
+        "assets",
+        "core",
+        "launcher",
+        "manager",
+        "readme"
+      ]
+    },
+    "root_pqczip_audit": {
+      "audit": "pqczip-candidate",
+      "container": "PQCZIP_CryptoChess_2.0.0-rc1_C10E_R2C_PUBLIC_c99cc9de85a2.pqcasset",
+      "created_at_utc": "2026-06-29T13:47:37.643566+00:00",
+      "embedded_payloads": [
+        {
+          "internal_path": "3Dx9_assets_6d046160ab99.pqcasset",
+          "matches_active_root": true,
+          "name": "3Dx9_assets_6d046160ab99.pqcasset",
+          "role": "assets",
+          "sha256": "6d046160ab993b5830266fc45233d6975e56265f5394c8ea3f6794f61834aa45",
+          "size_bytes": 865964
+        },
+        {
+          "internal_path": "3Dx9_core_4a7ef30be349.pqcasset",
+          "matches_active_root": true,
+          "name": "3Dx9_core_4a7ef30be349.pqcasset",
+          "role": "core",
+          "sha256": "4a7ef30be3499e38fbec9f387cfba19356447ad1a76c2bde7ceb1c1fc06d90c3",
+          "size_bytes": 11181784
+        },
+        {
+          "internal_path": "3Dx9_readme_1ffba09c2096.pqcasset",
+          "matches_active_root": true,
+          "name": "3Dx9_readme_1ffba09c2096.pqcasset",
+          "role": "readme",
+          "sha256": "1ffba09c20965646ff6484dfcedd793d92b5f866b36ef587c2932b4f7d5f5553",
+          "size_bytes": 383113
+        },
+        {
+          "internal_path": "CryptoChessAssetManager.py",
+          "matches_active_root": true,
+          "name": "CryptoChessAssetManager.py",
+          "role": "manager",
+          "sha256": "bcf1c3b2b21d4c04ab83a641109eee9839f421f942bbd69ba3f4d81b24f23c5f",
+          "size_bytes": 151514
+        },
+        {
+          "internal_path": "cryptochess.sh",
+          "matches_active_root": true,
+          "name": "cryptochess.sh",
+          "role": "launcher",
+          "sha256": "556262cbc1861d43fcea3dd70695aca88ba2e254315f99f7b3f625d726064ef3",
+          "size_bytes": 968
+        }
+      ],
+      "findings": [],
+      "passed": true,
+      "privacy": "device paths redacted; only candidate name and portable internal paths are shown",
+      "stage": "PQC-C10E-R2C",
+      "structure": {
+        "container_kind": "pqczip",
+        "empty": false,
+        "entry_count_declared": 7,
+        "errors": [],
+        "file_name": "PQCZIP_CryptoChess_2.0.0-rc1_C10E_R2C_PUBLIC_c99cc9de85a2.pqcasset",
+        "invalid_entries": 0,
+        "invalid_internal_paths": 0,
+        "is_pah1": true,
+        "passed": true,
+        "path_map_entries": 5,
+        "path_map_found": true,
+        "private_name_warnings": 0,
+        "sha256": "c99cc9de85a28201f87f213563b3cdad50d75294a885a01b88cb30065a61a7da",
+        "size_bytes": 12588036,
+        "trailing_bytes": 0,
+        "valid_entries": 7,
+        "version": 1,
+        "warnings": []
+      },
+      "summary": {
+        "blocker_count": 0,
+        "embedded_payload_count": 5,
+        "finding_count": 0,
+        "public_release_ready": true,
+        "warning_count": 0
+      },
+      "tool": "PIAL-T-L"
+    },
+    "root_pqczip_count": {
+      "count": 1,
+      "files": [
+        "PQCZIP_CryptoChess_2.0.0-rc1_C10E_R2C_PUBLIC_c99cc9de85a2.pqcasset"
+      ],
+      "passed": true
+    },
+    "selected_root_pqczip": {
+      "name": "PQCZIP_CryptoChess_2.0.0-rc1_C10E_R2C_PUBLIC_c99cc9de85a2.pqcasset",
+      "present": true,
+      "sha256": "c99cc9de85a28201f87f213563b3cdad50d75294a885a01b88cb30065a61a7da",
+      "size_bytes": 12588036
+    },
+    "stale_root_files_absent": {
+      "checked": [
+        "CryptoChess_2.0.0-rc1_C9I_R2_FINAL_STANDALONE_PQCZIP_MANIFEST.json",
+        "CryptoChess_2.0.0-rc1_C9I_R2_FINAL_STANDALONE_PQCZIP_SEAL.json",
+        "CryptoChess_2.0.0-rc1_C9I_R2_FINAL_STANDALONE_PQCZIP_SHA256.txt",
+        "unwrap_pqczip_outer.py"
+      ],
+      "passed": true,
+      "present": []
+    }
+  },
+  "created_at_utc": "2026-06-29T13:47:37.026617+00:00",
+  "doctor": "final-public-release",
+  "mutates": false,
+  "passed": true,
+  "privacy": "device paths redacted; root names and portable internal paths only",
+  "stage": "PQC-C10E-R2C",
+  "summary": {
+    "check_count": 8,
+    "checks": [
+      {
+        "check": "required_roles",
+        "passed": true
+      },
+      {
+        "check": "single_root_pqczip",
+        "passed": true
+      },
+      {
+        "check": "root_pqczip_audit",
+        "passed": true
+      },
+      {
+        "check": "release_surface",
+        "passed": true
+      },
+      {
+        "check": "assets_privacy",
+        "passed": true
+      },
+      {
+        "check": "stale_root_files_absent",
+        "passed": true
+      },
+      {
+        "check": "private_root_files_absent",
+        "passed": true
+      },
+      {
+        "check": "release_sidecars_present",
+        "passed": true
+      }
+    ],
+    "failed_count": 0,
+    "passed_count": 8,
+    "public_release_ready": true,
+    "root_pqczip": "PQCZIP_CryptoChess_2.0.0-rc1_C10E_R2C_PUBLIC_c99cc9de85a2.pqcasset"
+  },
+  "tool": "PIAL-T-L"
+}
